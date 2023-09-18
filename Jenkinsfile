@@ -3,7 +3,7 @@ pipeline {
 
   environment {
        imagename = "rashdockaccount/customizetomcatimage"
-       registryCredential = 'Dockerhub'
+       registryCredential = 'DockerHub'
        dockerImage = ''
            }
 
